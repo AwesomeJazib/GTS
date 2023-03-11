@@ -322,7 +322,6 @@ body {
   }
 
   p {
-    line-height: 1.5rem;
     font-size: calc(.6rem + .5vw);
     color: #919191;
 
@@ -1009,7 +1008,9 @@ $custom_width: calc(100% - 45rem);
 
 
 //styling of our_programes
-
+.our_programes{
+  background-color: $d-blue;
+}
 .accordion-button{
   padding-left: 3rem;
   
@@ -1039,14 +1040,14 @@ $custom_width: calc(100% - 45rem);
 .our_programes .our_programes-row [class^='col-'] {
   padding: 0;
   min-height: 100%;
-  background-color: green;
+  background-color: $d-blue;
 }
 
 
 .programes_text-sec {
   background-color: $d-blue;
   padding: 6rem 0;
-  height: fit-content;
+  min-height: 40rem;
 }
 
 .prog_container {
@@ -1062,7 +1063,8 @@ $custom_width: calc(100% - 45rem);
     }
 
     h2 {
-      font-size: 3em;
+      font-size: 3rem;
+      // font-size: calc(2rem + .5vw);
 
       small {
         font-size: 80%;
@@ -1070,11 +1072,13 @@ $custom_width: calc(100% - 45rem);
     }
 
     p {
-      padding-bottom: 5em;
+      margin: 2rem 0;
+      padding-bottom: 0;
     }
 
     .heading_img {
-      top: 1em;
+      top: 0;
+      transform: translateY(-1rem);
       width: 4em;
     }
   }
@@ -1082,7 +1086,7 @@ $custom_width: calc(100% - 45rem);
 
 
 .video_section {
-  height: 100%;
+  min-height: 53rem;
   position: relative;
 }
 
@@ -1094,7 +1098,7 @@ $custom_width: calc(100% - 45rem);
 }
 
 .modal_btn {
-  height: 100%;
+  padding-top: 150%;
   width: 100%;
   position: relative;
 
@@ -1856,8 +1860,11 @@ body {
 
   //styling of our_programes
 
+  .video_section{
+    min-height: fit-content;
+  }
   .video-container {
-    height: 25em;
+    height: 100%;
   }
 
   .prog_container .sec_heading .heading_img{
