@@ -9755,8 +9755,7 @@ body {
   padding-bottom: 0;
 }
 .prog_container .sec_heading .heading_img {
-  top: 0;
-  transform: translateY(-1rem);
+  top: -0.5rem;
   width: 4em;
 }
 
@@ -10339,6 +10338,10 @@ body {
     100% {
       transform: translateX(20%);
     }
+  }
+  .programes_text-sec {
+    min-height: -moz-fit-content;
+    min-height: fit-content;
   }
   .video_section {
     min-height: -moz-fit-content;

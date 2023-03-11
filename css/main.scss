@@ -1077,8 +1077,7 @@ $custom_width: calc(100% - 45rem);
     }
 
     .heading_img {
-      top: 0;
-      transform: translateY(-1rem);
+      top: -.5rem;
       width: 4em;
     }
   }
@@ -1860,6 +1859,9 @@ body {
 
   //styling of our_programes
 
+  .programes_text-sec{
+    min-height: fit-content;
+  }
   .video_section{
     min-height: fit-content;
   }
