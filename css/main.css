@@ -9727,7 +9727,8 @@ body {
 .programes_text-sec {
   background-color: #271344;
   padding: 6rem 0;
-  height: 50rem;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .prog_container {
@@ -9742,8 +9743,7 @@ body {
   color: #ffffff;
 }
 .prog_container .sec_heading h2 {
-  font-size: 4em;
-  line-height: 1.3em;
+  font-size: 3em;
 }
 .prog_container .sec_heading h2 small {
   font-size: 80%;

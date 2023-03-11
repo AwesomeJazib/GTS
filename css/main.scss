@@ -1046,7 +1046,7 @@ $custom_width: calc(100% - 45rem);
 .programes_text-sec {
   background-color: $d-blue;
   padding: 6rem 0;
-  height: 50rem;
+  height: fit-content;
 }
 
 .prog_container {
@@ -1062,8 +1062,7 @@ $custom_width: calc(100% - 45rem);
     }
 
     h2 {
-      font-size: 4em;
-      line-height: 1.3em;
+      font-size: 3em;
 
       small {
         font-size: 80%;
