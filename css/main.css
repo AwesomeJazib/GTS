@@ -9760,18 +9760,18 @@ body {
 }
 
 .video_section {
-  min-height: 53rem;
+  min-height: 50rem;
   position: relative;
 }
 
 .video-container {
   width: 100%;
-  height: 100%;
+  height: 50rem;
   position: relative;
 }
 
 .modal_btn {
-  padding-top: 150%;
+  height: 100%;
   width: 100%;
   position: relative;
 }
@@ -10348,7 +10348,7 @@ body {
     min-height: fit-content;
   }
   .video-container {
-    height: 100%;
+    height: calc(30rem + 5vw);
   }
   .prog_container .sec_heading .heading_img {
     left: 80%;
